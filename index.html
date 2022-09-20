@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="assets/style.css">
+        
+        <title>UPC Scanner</title>
+
+    </head>
+    <body>
+        <h2>Video Preview</h2>
+        <button id="start">Start</button>
+        <button type="button" id="stop">Stop</button>
+        <div id="interactive" class="viewport">
+            <video auotplay="true" src=""></video>
+            <canvas class="drawingBuffer" width="640" height="480">
+            <br clear="all">
+        </div>
+        
+    
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script> -->
+        <script src="./dist/quagga.min.js"></script>
+        <script type ="module" src="assets/app.js"></script>        
+    </body>
+</html>

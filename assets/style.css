@@ -1,0 +1,7 @@
+#interactive.viewport {
+    border: solid 1px black;
+    width: 640px;
+    height: 480px;
+    /* padding-bottom: 1.3333; */
+    overflow: hidden;
+}
