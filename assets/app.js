@@ -27,6 +27,7 @@ document.querySelector('#start').addEventListener('click', () => {
           }
           console.log("Initialization finished. Ready to start");
           Quagga.start();
+          console.log(codeResult[code]);
       });
     });
 // Stop Scan & terminate media device
