@@ -1,3 +1,5 @@
+// Setup to test running web worker
+
 let i = 0;
 
 function timedCount() {
