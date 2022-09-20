@@ -15,10 +15,10 @@ document.querySelector('#start').addEventListener('click', () => {
         inputStream : {
           name : "Live",
           type : "LiveStream",
-          target: document.querySelector('#interactive.viewport')  // Or '#yourElement' (optional)
+          target: document.querySelector('#frame')  // Or '#yourElement' (optional)
         },
         decoder : {
-          readers : ["code_128_reader"]
+          readers : ["UPC"]
         }
       }, function(err) {
           if (err) {
@@ -32,7 +32,7 @@ document.querySelector('#start').addEventListener('click', () => {
 // Stop Scan & terminate media device
 document.querySelector('#stop').addEventListener('click', () => {
     Quagga.stop();
-    document.querySelector('#interactive.viewport').src = '';
+    // document.querySelector('#frame').innerHTML = '';
 });
 
 // // Set video Eleemtn on page

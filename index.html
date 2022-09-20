@@ -11,14 +11,21 @@
 
     </head>
     <body>
-        <h2>Video Preview</h2>
-        <button id="start">Start</button>
-        <button type="button" id="stop">Stop</button>
-        <div id="interactive" class="viewport">
-            <video auotplay="true" src=""></video>
-            <canvas class="drawingBuffer" width="640" height="480">
-            <br clear="all">
-        </div>
+        <main>
+
+            <h2>Video Preview</h2>
+            <div class="button-wrapper">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+            </div>
+
+            <div id="frame">
+                <video autoplay="true" id="video" src=""></video>
+                <!-- <canvas class="drawingBuffer"> -->
+                <!-- <br clear="all"> -->
+            </div>
+
+        </main>
         
     
 
