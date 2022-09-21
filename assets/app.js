@@ -47,7 +47,7 @@ scan.addEventListener('click', () => {
                 console.log("result", result.codeResult.code); // log to console as test
                 scanResult.innerText = `Result: ${result.codeResult.code}`; // place in DOM as preview
                 Quagga.stop();
-                videoFrame.classList.add('hidden'); // hide prview on completion
+                videoFrame.classList.add('hidden'); // hide preview on completion
             } else {
                 document.querySelector('#result').innerText = "not detected"; // display error text
                 videoFrame.classList.add('hidden'); // hide preivew on error
