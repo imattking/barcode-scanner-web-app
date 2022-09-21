@@ -11,15 +11,16 @@
 
     </head>
     <body>
+
         <main>
 
-            <h2>Video Preview</h2>
+            <h1>Video Preview</h1>
             <div class="button-wrapper">
-                <button id="start">Start</button>
-                <button id="stop">Stop</button>
+                <button id="start">Scan Barcode</button>
+                <!-- <button id="stop">Stop</button> -->
             </div>
 
-            <div id="frame">
+            <div id="frame" class="hidden">
                 <video autoplay="true" id="video" src=""></video>
             </div>
 
@@ -29,10 +30,7 @@
 
         </main>
         
-    
-
-        <!-- <script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script> -->
         <script src="./dist/quagga.min.js"></script>
-        <script type ="module" src="assets/app.js"></script>        
+        <script src="assets/app.js"></script>        
     </body>
 </html>
