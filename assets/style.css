@@ -31,12 +31,12 @@ h3 {
     font-size: 2rem;
 }
 
-#frame {
+#vid-container {
     max-width: 30rem;
     max-height: 22.5rem;
     overflow: hidden;
 }
-#video {
+#vid-frame {
     border: solid 1px black;
     max-width: 100%;
     overflow: hidden;
